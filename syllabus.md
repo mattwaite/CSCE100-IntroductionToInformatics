@@ -47,8 +47,11 @@ I use standard and basic grading scale.
 |F|59 or below|
 
 However, your final letter grade will be weighted:
-|Assignment|Weight||----------|------|
-|Assignments/quizzes|40%||Midterm test|25%||Final project|35%|
+
+|Assignment|Weight|
+|----------|------|
+|Assignments/quizzes|40%||Midterm test|25%|
+|Final project|35%|
 
 __Notes on attendance:__
 

@@ -1,0 +1,57 @@
+Problem 1: 
+
+SELECT * FROM food where lapop1share >= 1
+
+4,342 records returned
+
+Problem 2:
+
+SELECT * FROM food where lapop1share >= .75
+
+20,441 records returned
+
+Problem 3: 
+
+If they used pop2010: 
+
+SELECT sum(pop2010) FROM food where lapop1share >= 1
+
+15,431,216
+
+If they used lapop1:
+
+15,431,216
+
+Problem 4:
+
+SELECT sum(pop2010) FROM food where lapop1share >= .75
+
+85,409,072
+
+with lapop1
+
+80,011,090
+
+Problem 5:
+
+SELECT * FROM food where lapop1share >= 1 and state = "NE"
+
+64
+
+Problem 6:
+
+SELECT SUM(pop2010) FROM food where lapop1share >= 1 and state = "NE"
+
+163,681
+
+Problem 7:
+
+SELECT * FROM food where lapop1share >= .75 and state = "NE"
+
+169
+
+Problem 8:
+
+SELECT SUM(pop2010) FROM food where lapop1share >= .75 and state = "NE"
+
+485,765
